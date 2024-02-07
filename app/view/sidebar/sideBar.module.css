@@ -1,0 +1,47 @@
+.mainDiv{
+    width: 18vw;
+    height: 100vh;
+    background-color: seagreen;
+    padding: 25px 15px 20px 15px;
+    color: aliceblue;
+}
+
+.sideBarTopics{
+    font-size: 12px;
+    color: darkgrey;
+}
+
+.sideBarButton{
+    width: 100%;
+    color: white;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    padding: 20px 0;
+    font-size: 14px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: start;
+}
+
+.sideBarHr{
+    width: 80%;
+    background-color: gray;
+    margin: 20px 0;
+    opacity: 25%;
+}
+
+.sideBarEndBtn{
+    width: 25%;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    opacity: 20%;
+    display: flex;
+    border-radius: 500px;
+    padding: 20px;
+
+    margin: auto;
+}

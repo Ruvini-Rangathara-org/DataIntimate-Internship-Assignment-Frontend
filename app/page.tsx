@@ -1,12 +1,9 @@
-import Image from "next/image";
-import ProductCard from "@/app/component/ProductCard";
+import Dashboard from "@/app/dashboard/page";
 
 export default function Home() {
   return (
     <main >
-      <h1>Ruvini Rangathara</h1>
-
-        <ProductCard />
+      <Dashboard />
     </main>
   );
 }
