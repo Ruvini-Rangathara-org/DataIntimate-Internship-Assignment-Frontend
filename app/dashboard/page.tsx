@@ -4,6 +4,7 @@ import SearchBar from "@/app/view/searchbar/searchbar";
 import styles from "./dashboard.module.css";
 import { FaDownload } from "react-icons/fa";
 import CardRow from "@/app/view/cardRow/cardRow";
+import ChartRow from "@/app/view/chartRow/chartRow";
 
 const Dashboard = () => {
   return (
@@ -22,9 +23,14 @@ const Dashboard = () => {
 
             <CardRow />
 
+            <ChartRow />
 
 
 
+            <br/>
+            <br/>
+            <br/>
+            <br/>
 
         </div>
     </main>
