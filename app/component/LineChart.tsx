@@ -37,8 +37,6 @@ function LineChart() {
 
     return (
         <>
-            {/* Filled line chart */}
-            {/*<h1 className="w-[150px] mx-auto mt-10 text-xl font-semibold capitalize ">Filled line Chart</h1>*/}
             <div className=" flex mx-auto my-auto w-[100%] h-auto">
                 <div className=' pt-0  w-full h-fit my-auto'>
                     <canvas id='myChart'></canvas>

@@ -28,12 +28,8 @@ const ChartRow = () => {
                 </div>
 
             </div>
-
             <br/>
-            {/*==========================================================================================*/}
-
             <div className={styles.chartRow}>
-
                 <div className={styles.chartCard}>
                     <h1 className={styles.chartTopic}>Progress Bar</h1>
 
@@ -52,7 +48,6 @@ const ChartRow = () => {
                     </div>
 
                 </div>
-
                 <div className={styles.chartCard}>
                     <h1 className={styles.chartTopic}>Chart 02</h1>
                     <DoughnutChart/>
@@ -60,6 +55,46 @@ const ChartRow = () => {
 
 
             </div>
+            <br/>
+            <div className={styles.chartRow}>
+
+                <div className={styles.chartCard} style={{backgroundColor:"transparent", boxShadow:"none"}}>
+                    <div className={styles.buttonGrid}>
+                        <button style={{backgroundColor:"#4e73df"}}>Button 1</button>
+                        <button style={{backgroundColor:"#1cc88a"}}>Button 2</button>
+                        <button style={{backgroundColor:"#36b9cc"}}>Button 3</button>
+                        <button style={{backgroundColor:"#f6c23e"}}>Button 4</button>
+                        <button style={{backgroundColor:"#e74a3b"}}>Button 5</button>
+                        <button style={{backgroundColor:"#858796"}}>Button 6</button>
+                        <button style={{backgroundColor:"#9a00d6"}}>Button 7</button>
+                        <button style={{backgroundColor:"#5a5c69"}}>Button 8</button>
+                    </div>
+
+                </div>
+
+                <div className={styles.chartCard}>
+                    <h1 className={styles.chartTopic}>Development Approach</h1>
+                    <div className={styles.chartBody}>
+                        <p className={'text-[14px] text-[gray]'}>
+                        lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                        <br/>
+
+                        <p className={'text-[14px] text-[gray]'}>
+                            lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                        <br/>
+                    </div>
+                </div>
+
+            </div>
+
         </>
     );
 
