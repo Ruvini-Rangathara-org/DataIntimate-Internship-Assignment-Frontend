@@ -10,10 +10,10 @@ const SearchBar = () => {
 
             <div className={'flex justify-center items-center'}>
                 <div className={'flex justify-center items-center'}>
-                    <RiTableLine className={'w-[10%] h-[10%] mr-2 opacity-[30%] mr-6'}/>
-                    <RiTableLine className={'w-[10%] h-[10%] mr-2 opacity-[30%] mr-10'}/>
+                    <RiTableLine className={'w-[10%] h-[10%] mr-2 opacity-[50%] mr-6'}/>
+                    <RiTableLine className={'w-[10%] h-[10%] mr-2 opacity-[50%] mr-10'}/>
 
-                    <span className={'text-[gray] w-[180px]'}>Ms. Ruvini</span>
+                    <span className={'text-[gray] w-[180px] '}>Ms. Ruvini</span>
                     <div className={'w-[100%]'}>
                         <button className={styles.searchBarEndBtn}></button>
                     </div>

@@ -43,7 +43,7 @@ function DoughnutChart() {
             {/*<h1 className=" mx-auto text-xl font-semibold capitalize ">Doughnut Chart</h1>*/}
             <div className="flex mx-auto my-auto w-[100%] h-auto">
                 <div className=' pt-0 w-full h-fit my-auto'>
-                    <canvas id='myChart'></canvas>
+                    <canvas id='myChart1'></canvas>
                 </div>
             </div>
         </>

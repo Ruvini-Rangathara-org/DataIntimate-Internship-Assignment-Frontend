@@ -14,19 +14,28 @@ const ChartRow = () => {
                 </div>
 
                 <div className={styles.chartCard}>
-                    <h1 className={styles.chartTopic}>Chart 02</h1>
-                    <DoughnutChart/>
+                    <h1 className={styles.chartTopic}>Section 02</h1>
+                    <div className={styles.chartBody}>
+                        <div className={styles.bgImage}/>
+                        {/*<img src={'https://static.ditdot.hr/images/info/ux-ui/ux-ui-00.png'} alt={'sample image'} className={'w-[100%] h-[50%]'}/>*/}
+                        <p className={'text-[14px] text-[gray]'}>
+                            lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+                    </div>
                 </div>
 
             </div>
 
             <br/>
-{/*==========================================================================================*/}
+            {/*==========================================================================================*/}
 
             <div className={styles.chartRow}>
 
                 <div className={styles.chartCard}>
-                    <h1 className={styles.chartTopic}>Chart 01</h1>
+                    <h1 className={styles.chartTopic}>Progress Bar</h1>
 
                     <div className={styles.chartBody}>
                         <p className={'text-[gray] w-[100%] pl-6'} style={{textAlign: 'left'}}>Progress Bar 01</p>
@@ -45,19 +54,10 @@ const ChartRow = () => {
                 </div>
 
                 <div className={styles.chartCard}>
-                <h1 className={styles.chartTopic}>Chart 02</h1>
-
-                    <div className={styles.chartBody}>
-                        <img src={'public/asset/1.png'} alt={'sample image'} className={'w-32 h-32'}/>
-                        <p className={'text-[14px] text-[gray]'}>
-                            lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        </p>
-                    </div>
-
+                    <h1 className={styles.chartTopic}>Chart 02</h1>
+                    <DoughnutChart/>
                 </div>
+
 
             </div>
         </>

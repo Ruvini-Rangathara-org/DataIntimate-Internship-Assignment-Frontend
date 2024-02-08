@@ -56,3 +56,10 @@
     align-items: center;
     background-color: mediumseagreen;
 }
+
+
+.bgImage {
+    width: 100%;
+    height: 80%;
+    background-image: url('https://static.ditdot.hr/images/info/ux-ui/ux-ui-00.png');
+}
