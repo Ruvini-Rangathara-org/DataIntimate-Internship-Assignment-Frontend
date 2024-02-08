@@ -1,9 +1,10 @@
 .mainDiv{
     width: 18vw;
-    height: 100%;
+    height: 100vh;
     background-color: seagreen;
     padding: 25px 15px 20px 15px;
     color: aliceblue;
+    position: fixed;
 }
 
 .sideBarTopics{
@@ -44,4 +45,12 @@
     padding: 20px;
 
     margin: auto;
+}
+
+.main{
+    width: 18vw;
+    height: 100vh;
+    background-color: seagreen;
+    color: aliceblue;
+    margin-right: 46px;
 }

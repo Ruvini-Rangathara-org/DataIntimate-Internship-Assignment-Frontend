@@ -11,7 +11,8 @@ import { IoKeyOutline } from "react-icons/io5";
 
 const Sidebar = () => {
   return (
-      <div className={styles.mainDiv}>
+      <div className={styles.main}>
+        <div className={styles.mainDiv}>
 
           <div className={'flex'}>
               <AiOutlineSmile className={'w-[15%] h-[15%] mr-4'}/>
@@ -63,6 +64,7 @@ const Sidebar = () => {
               <button className={styles.sideBarEndBtn}> </button>
           </div>
 
+      </div>
       </div>
   );
 };
